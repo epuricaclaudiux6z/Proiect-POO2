@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="jocclau" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/jocclau" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/jocclau" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="../../Downloads/Entity.cpp" />
+		<Unit filename="../../Downloads/Entity.h" />
+		<Unit filename="../../Downloads/Game.cpp" />
+		<Unit filename="../../Downloads/Game.h" />
+		<Unit filename="../../Downloads/Level.cpp" />
+		<Unit filename="../../Downloads/Level.h" />
+		<Unit filename="../../Downloads/Obstacle.cpp" />
+		<Unit filename="../../Downloads/Obstacle.h" />
+		<Unit filename="../../Downloads/Player.cpp" />
+		<Unit filename="../../Downloads/Player.h" />
+		<Unit filename="../../Downloads/main.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

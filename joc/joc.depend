@@ -1,0 +1,121 @@
+# depslib dependency file v1.0
+1760515284 source:c:\users\iuli\documents\sda\jocclau\entity.cpp
+	"Entity.h"
+	<iostream>
+
+1760515282 c:\users\iuli\documents\sda\jocclau\entity.h
+	<string>
+
+1760515322 source:c:\users\iuli\documents\sda\jocclau\level.cpp
+	"Level.h"
+	<iostream>
+
+1760515336 c:\users\iuli\documents\sda\jocclau\level.h
+	<vector>
+	"Entity.h"
+
+1760515408 source:c:\users\iuli\documents\sda\jocclau\main.cpp
+	"Game.h"
+
+1760515363 c:\users\iuli\documents\sda\jocclau\game.h
+	"Level.h"
+	"Player.h"
+	"Obstacle.h"
+
+1760515637 c:\users\iuli\documents\sda\jocclau\player.h
+	"Entity.h"
+
+1760515639 c:\users\iuli\documents\sda\jocclau\obstacle.h
+	"Entity.h"
+
+1760515217 source:c:\users\iuli\documents\sda\jocclau\player.cpp
+	"Player.h"
+	<iostream>
+
+1760515641 source:c:\users\iuli\documents\sda\jocclau\obstacle.cpp
+	"Obstacle.h"
+
+1760515809 source:c:\users\iuli\documents\sda\jocclau\game.cpp
+	"Game.h"
+	<iostream>
+
+1760517138 source:c:\users\40742\desktop\jocclau\entity.cpp
+	"Entity.h"
+	<iostream>
+
+1760517139 c:\users\40742\desktop\jocclau\entity.h
+	<string>
+
+1760517139 source:c:\users\40742\desktop\jocclau\game.cpp
+	"Game.h"
+	<iostream>
+
+1760517139 c:\users\40742\desktop\jocclau\game.h
+	"Level.h"
+	"Player.h"
+	"Obstacle.h"
+
+1760517139 c:\users\40742\desktop\jocclau\level.h
+	<vector>
+	"Entity.h"
+
+1760517139 c:\users\40742\desktop\jocclau\player.h
+	"Entity.h"
+
+1760517139 c:\users\40742\desktop\jocclau\obstacle.h
+	"Entity.h"
+
+1760517139 source:c:\users\40742\desktop\jocclau\level.cpp
+	"Level.h"
+	<iostream>
+
+1760517139 source:c:\users\40742\desktop\jocclau\main.cpp
+	"Game.h"
+
+1760517139 source:c:\users\40742\desktop\jocclau\obstacle.cpp
+	"Obstacle.h"
+
+1760517139 source:c:\users\40742\desktop\jocclau\player.cpp
+	"Player.h"
+	<iostream>
+
+1760517138 source:c:\users\40742\desktop\joc\entity.cpp
+	"Entity.h"
+	<iostream>
+
+1760517139 c:\users\40742\desktop\joc\entity.h
+	<string>
+
+1760517139 source:c:\users\40742\desktop\joc\game.cpp
+	"Game.h"
+	<iostream>
+
+1760517139 c:\users\40742\desktop\joc\game.h
+	"Level.h"
+	"Player.h"
+	"Obstacle.h"
+
+1760517139 c:\users\40742\desktop\joc\level.h
+	<vector>
+	"Entity.h"
+
+1760517139 c:\users\40742\desktop\joc\player.h
+	"Entity.h"
+
+1760517139 c:\users\40742\desktop\joc\obstacle.h
+	"Entity.h"
+
+1760517139 source:c:\users\40742\desktop\joc\level.cpp
+	"Level.h"
+	<iostream>
+
+1760517139 source:c:\users\40742\desktop\joc\main.cpp
+	"Game.h"
+
+1760517139 source:c:\users\40742\desktop\joc\obstacle.cpp
+	"Obstacle.h"
+
+1760517139 source:c:\users\40742\desktop\joc\player.cpp
+	"Player.h"
+	<iostream>
+
