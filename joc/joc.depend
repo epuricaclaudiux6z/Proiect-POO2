@@ -83,7 +83,7 @@
 	"Entity.h"
 	<iostream>
 
-1760517139 c:\users\40742\desktop\joc\entity.h
+1760513539 c:\users\40742\desktop\joc\entity.h
 	<string>
 
 1760517139 source:c:\users\40742\desktop\joc\game.cpp
@@ -126,28 +126,28 @@
 1764688349 c:\users\40742\downloads\entity.h
 	<string>
 
-1764688349 source:c:\users\40742\downloads\game.cpp
+1765273310 source:c:\users\40742\downloads\game.cpp
 	<iostream>
 	<cstdlib>
-	<cstdlib>
+	<ctime>
 
-1764688349 source:c:\users\40742\downloads\level.cpp
+1765273248 source:c:\users\40742\downloads\level.cpp
 	"Level.h"
 	<iostream>
 
-1764688349 c:\users\40742\downloads\level.h
+1765273248 c:\users\40742\downloads\level.h
 	<vector>
 	"Entity.h"
 
 1761498478 source:c:\users\40742\downloads\main.cpp
 	"Game.h"
 
-1761498491 c:\users\40742\downloads\game.h
+1765273310 c:\users\40742\downloads\game.h
 	"Level.h"
 	"Player.h"
 	"Obstacle.h"
 
-1761498989 c:\users\40742\downloads\player.h
+1765271540 c:\users\40742\downloads\player.h
 	"Entity.h"
 
 1761498989 c:\users\40742\downloads\obstacle.h
@@ -157,11 +157,18 @@
 1762709481 source:c:\users\40742\downloads\obstacle.cpp
 	"Obstacle.h"
 
-1762757468 source:c:\users\40742\downloads\player.cpp
+1765271540 source:c:\users\40742\downloads\player.cpp
 	"Level.h"
 	<iostream>
 	<conio.h>
+	<windows.h>
 	<termios.h>
 	<unistd.h>
-	<fcntl.h>
+	<sys/ioctl.h>
+
+1765124934 source:c:\users\40742\desktop\joc\enemy.cpp
+	"Enemy.h"
+
+1765124972 c:\users\40742\desktop\joc\enemy.h
+	"Entity.h"
 
