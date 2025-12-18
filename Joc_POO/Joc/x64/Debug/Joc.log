@@ -1,0 +1,10 @@
+﻿  main.cpp
+  Game.cpp
+  Entity.cpp
+  Level.cpp
+  Player.cpp
+  Obstacle.cpp
+  Enemy.cpp
+  EnemyRandom.cpp
+  Generating Code...
+  Joc.vcxproj -> C:\Users\claud\source\repos\Joc\Joc_POO\x64\Debug\Joc.exe
