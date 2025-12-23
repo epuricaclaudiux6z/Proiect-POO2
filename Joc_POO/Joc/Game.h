@@ -1,16 +1,16 @@
-#ifndef GAME_H
+﻿#ifndef GAME_H
 #define GAME_H
 #include "Level.h"
 #include "Player.h"
 
 class Game {
 private:
+    Level* lvl;
+    Player* p;
     bool running;
-    Level* level;
-    Player* player;
 public:
     Game();
-    ~Game();
+    ~Game(); // Declarația destructorului
     void run();
 };
-#endif#pragma once
+#endif
