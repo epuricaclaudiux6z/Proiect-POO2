@@ -1,17 +1,12 @@
 #include "Entity.h"
 #include <iostream>
 
-Entity::Entity(int startX, int startY, const std::string& sym)
-    : x(startX), y(startY), symbol(sym) {}
-
+Entity::Entity(int x, int y, std::string sym) : x(x), y(y), symbol(sym) {}
 Entity::~Entity() {}
-
-void Entity::drawAtCurrentPosition() const {
-    // Muta cursorul folosind secvente ANSI: \x1B[linie;coloanaH
+void Entity::draw() const {
     std::cout << "\x1B[" << (y + 1) << ";" << (x + 1) << "H" << symbol;
 }
-
 int Entity::getX() const { return x; }
 int Entity::getY() const { return y; }
-void Entity::setPosition(int newX, int newY) { x = newX; y = newY; }
-std::string Entity::getSymbol() const { return symbol; }
+void Entity::setPos(int nx, int ny) { x = nx; y = ny; }
+std::string Entity::getSym() const { return symbol; }

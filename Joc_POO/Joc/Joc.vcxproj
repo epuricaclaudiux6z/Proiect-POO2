@@ -135,12 +135,14 @@
     <ClCompile Include="Obstacle.cpp" />
     <ClCompile Include="Enemy.cpp" />
     <ClCompile Include="EnemyRandom.cpp" />
+    <ClCompile Include="Point.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h" />
     <ClInclude Include="Entity.h" />
     <ClInclude Include="Enemy.h" />
     <ClInclude Include="EnemyRandom.h" />
+    <ClInclude Include="Point.h" />
     <ClInclude Include="Obstacle.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="Level.h" />
