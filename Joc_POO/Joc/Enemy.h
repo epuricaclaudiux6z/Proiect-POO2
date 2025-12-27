@@ -4,6 +4,6 @@
 
 class Enemy : public Entity {
 public:
-    Enemy(int x, int y, std::string sym); // Doar declarația
+    Enemy(int x, int y, std::string sym);
 };
 #endif

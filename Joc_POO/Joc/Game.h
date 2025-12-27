@@ -10,7 +10,7 @@ private:
     bool running;
 public:
     Game();
-    ~Game(); // Declarația destructorului
+    ~Game();
     void run();
 };
 #endif

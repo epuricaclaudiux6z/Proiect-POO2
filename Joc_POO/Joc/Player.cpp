@@ -16,7 +16,6 @@ void Player::update(Level* level) {
 
     if (!level->isBlocked(nx, ny)) {
         std::cout << "\x1B[" << (y + 1) << ";" << (x + 1) << "H" << ".";
-
         if (stamina > 0) {
             stamina--;
             needsUIUpdate = true;
@@ -32,7 +31,6 @@ void Player::update(Level* level) {
             }
             else if (e->getSym() == "E") {
                 if (stamina > 0) {
-                    // OMORI INAMICUL: Respawn random
                     int rx, ry;
                     do { rx = rand() % 28 + 1; ry = rand() % 18 + 1; } while (level->isBlocked(rx, ry));
                     e->setPos(rx, ry);

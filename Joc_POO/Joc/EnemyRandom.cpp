@@ -4,6 +4,7 @@
 #include <cstdlib>
 
 EnemyRandom::EnemyRandom(int x, int y) : Enemy(x, y, "E") {}
+
 void EnemyRandom::update(Level* level) {
     if (rand() % 10 > 8) {
         std::cout << "\x1B[" << (y + 1) << ";" << (x + 1) << "H" << ".";
