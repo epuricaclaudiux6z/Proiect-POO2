@@ -5,7 +5,7 @@
 class Player : public Entity {
 public:
     int hp, points, stamina;
-    bool needsUIUpdate; // Controlul scrierii textului
+    bool needsUIUpdate;
     Player(int x, int y);
     void update(Level* level) override;
 };
