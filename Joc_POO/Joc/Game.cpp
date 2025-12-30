@@ -24,9 +24,7 @@ Game::Game() {
     lvl->addEntity(new EnemyRandom(25, 15));
     running = true;
 }
-
 Game::~Game() { delete lvl; }
-
 void Game::run() {
     HANDLE hOut = GetStdHandle(STD_OUTPUT_HANDLE);
     DWORD dwMode = 0; GetConsoleMode(hOut, &dwMode);
@@ -56,6 +54,5 @@ void Game::run() {
     system("cls");
     if (p->points >= 50) std::cout << "FELICITARI! AI CASTIGAT!" << std::endl;
     else std::cout << "GAME OVER! Scor: " << p->points << std::endl;
-    std::cout << "Apasati orice tasta pentru a iesi...";
     _getch();
 }
