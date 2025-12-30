@@ -1,12 +1,12 @@
 #include "Level.h"
 #include <iostream>
 
-Level::Level(int w, int h) : w(w), h(h) {}
+Level::Level(int w, int h) : w(w), h(h), limits(w, h) {}
 Level::~Level() { for (auto e : entities) delete e; }
 void Level::addEntity(Entity* e) { entities.push_back(e); }
 
 bool Level::isBlocked(int x, int y) {
-    if (x < 0 || x >= w || y < 0 || y >= h) return true;
+    if (!limits.isInside(x, y)) return true;
     for (auto e : entities)
         if (e->getX() == x && e->getY() == y && e->getSym() == "#") return true;
     return false;

@@ -2,7 +2,6 @@
 #define GAME_H
 #include "Level.h"
 #include "Player.h"
-
 class Game {
 private:
     Level* lvl;

@@ -1,7 +1,7 @@
 #include "EnemyRandom.h"
 #include "Level.h"
-#include <iostream>
 #include <cstdlib>
+#include <iostream>
 
 EnemyRandom::EnemyRandom(int x, int y) : Enemy(x, y, "E") {}
 

@@ -1,6 +1,7 @@
 #ifndef ENTITY_H
 #define ENTITY_H
 #include <string>
+#include <iostream>
 
 class Level;
 class Entity {
@@ -16,5 +17,8 @@ public:
     int getY() const;
     void setPos(int nx, int ny);
     std::string getSym() const;
+
+    bool operator==(const Entity& other) const;
+    friend std::ostream& operator<<(std::ostream& os, const Entity& e);
 };
 #endif
