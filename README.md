@@ -1,4 +1,3 @@
-Ce stie sa faca jocul (Functionalitati):
 In joc sunt obstacole (,,#’’),spatii goale (,, . “),jucatorul(,,@”),inamici(,,E”)  si puncte (,,$”).
 Harta generata random: Jocul nu foloseste o harta fixa. La fiecare pornire, un algoritm populeaza interiorul nivelului cu obstacole (ziduri) in mod aleatoriu, cu o probabilitate de 10%, oferind o experienta diferita la fiecare rulare.
 Caracterul jucat de utilizator asemmenea inamicilor se misca in sus,jos ,stanga si dreapta ;in cazul jucatorului se folosesc tastele W S A D pentru deplasarea caracterului.
